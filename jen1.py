@@ -13,7 +13,7 @@ def recur_fibo(n):
        return n
     else:
         return(recur_fibo(n-1) + recur_fibo(n-2))
-nterms = 20
+nterms = 25
 
 if nterms <= 0:
     print("Please enter a positive integer")
