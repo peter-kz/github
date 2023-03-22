@@ -53,7 +53,7 @@ dependencies {
     testImplementation("io.projectreactor:reactor-test")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
     testImplementation("com.fasterxml.jackson.core:jackson-core:2.14.2")
-    testImplementation("com.tngtech.archunit:archunit-junit5:1.0.0-rc1")
+    testImplementation("com.tngtech.archunit:archunit-junit5:1.0.1")
 }
 
 // Security Update: CVE-2022-25857
