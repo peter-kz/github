@@ -65,7 +65,7 @@ allprojects {
 
     dependencies {
         implementation("org.springframework:spring-context")
-        implementation("io.github.microutils:kotlin-logging:2.1.23")
+        implementation("io.github.microutils:kotlin-logging:3.0.5")
         implementation("org.yaml:snakeyaml:$snakeYamlVersion")
 
         implementation("org.springframework.boot:spring-boot-starter")
