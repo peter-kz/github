@@ -9,7 +9,7 @@ plugins {
     val springBootVersion by System.getProperties()
     val springBootDependencyManagementVersion by System.getProperties()
 
-    id("au.com.dius.pact") version "4.3.15"
+    id("au.com.dius.pact") version "4.6.0"
     id("jacoco")
     id("org.springframework.boot") version "$springBootVersion"
     id("io.spring.dependency-management") version "$springBootDependencyManagementVersion"
